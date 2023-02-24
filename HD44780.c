@@ -1,5 +1,6 @@
 #include"stm32f0xx.h"
-//#include "display.h"
+/********Author: Andrii Androsovych***************/
+
 //This is a driver of a standard  HD 44780 alphanumeric display.
 //Data flows through PORT A,  RW connect to the ground , data flows as chunks (4 bits).
 // 
